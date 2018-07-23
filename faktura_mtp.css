@@ -1,0 +1,433 @@
+BODY{
+	font-size: 10pt;
+	margin-left : 0 cm;
+	background-color:white;
+	font-family : "Arial", "MS Serif", "New York", serif;
+/*  font-family : "Times New Roman",Georgia,Serif;     */
+}
+
+PRE{
+	margin-bottom: 0px;
+	margin: 0px;
+}
+
+.pravyhorny {                                          /* sirka pravej casti */
+  /*position: relative;*/
+  width: 108mm; top: 0mm; left: 70mm; height: 20mm;
+  border : thin solid;
+  border-bottom : none;
+  padding : 0mm 0mm 0mm 2mm
+  margin : 0cm,0cm,0cm,0cm;
+}
+
+/*
+.mojlavys {
+  position: relative; width: 70mm; top: 0mm; left: 0mm; height: 90mm;
+  border : thin solid;
+  border-right : none;
+}
+*/
+.mojlavys {                                            /* sirka lavej casti */
+  float: left;
+  width: 80mm;
+  height: 90mm;
+  margin : 0cm,0cm,0cm,0cm;
+  padding:0;
+  border : thin solid;
+}
+
+
+.logo {
+  position: relative;
+  width: 70mm; top: 2mm; left: 3mm; height: 15mm;
+/*  background-image:url('logokat.gif');*/
+  background-repeat: no-repeat;
+}
+
+/* obal iba obali hlavu faktury, aby sa riadok "Na zaklade prilozenych..."*/
+/* tlacil od kraja a nie od zaciatku praveho stlpca hlavy faktury */
+.obal { 
+  border : thin solid;
+  border-color: white;
+  width: 190mm;
+}
+
+.adresad {
+	margin: 0px 0px 0px 8px;
+}
+
+.icodic {
+	margin: 0px 0px 5px 8px;
+}
+
+.banka {
+	margin: 0px 0px 5px 8px;
+}
+
+.obchregister {
+  font-size: 8pt;
+  margin: 0px 0px 5px 8px;
+}
+
+.odberatelbox {                                         /* sirka pravej casti */
+  /*position: relative;*/
+  width: 108mm; top: 0mm; left: 70mm; height: 56mm;
+  border : thin solid;
+  border-bottom : none;
+  padding : 3mm 0mm 3mm 2mm
+  margin : 0cm,0cm,0cm,0cm;
+}
+
+.datumybox {                                            /* sirka pravej casti */
+  /*position: relative;*/
+  width: 108mm; top: 0mm; left: 70mm; height: 14mm;
+  border : thin solid;
+  padding : 1mm 0mm 0mm 1mm
+  margin : 0;
+}
+
+.adresaodb {
+  position: relative;
+  top: 2mm;
+  left: 40mm;
+/*  font-weight: bold;*/
+  line-height: 150%;
+}
+
+.odb {
+  position: relative;
+  top: 10mm; 
+}
+
+.odbico {
+  position: relative;
+  top: 2mm;
+  left: 2mm;
+}
+
+.odbdic {
+  position: relative;
+  top: 2mm;
+  left: 2mm;
+}
+
+.odbicdph {
+  position: relative;
+  top: 2mm;
+  left: 2mm;
+}
+
+.odbadr {
+  position: relative;
+  top: -3.5mm;
+  left: 40mm;
+}
+
+.datum {
+	display : inline;
+}
+
+.medzera {
+  display: inline;
+  width: 0.26cm;
+}
+
+.medzera1cm {
+  display: inline;
+  width: 0.5cm;
+}
+
+.medzera3cm {
+  display: inline;
+  width: 1.5cm;
+}
+
+.medzeradic {
+  display: inline;
+  width: 4.30cm;
+}
+
+.mojahlava {
+	font-size: 14pt;
+}
+
+.mena {
+	display : inline;
+	width : 1.2cm;
+	text-align : right;
+}
+
+.hlava {
+	font-size: 14pt;
+	border : thin solid;
+	width : 17.0cm;
+	border-top : none;
+	border-right-style : none;
+	border-left-style : none;
+}
+.dodavatel {
+	/*border : 1px solid;*/
+	padding-left : 3mm;
+	padding-top : 4mm;
+	/*width : 18.5cm;*/
+}
+.odberatel {
+	border : 1px solid;
+	padding-left : 5mm;
+	padding-top : 1mm;
+	width : 18.5cm;
+}
+.vs {
+	width : 6cm;
+	height : 3cm;
+	margin-bottom : 0px;
+	border-left : 1px solid;
+	padding-left : 5mm;
+	left : 12cm;
+	position : absolute;
+	top : 1.3cm;
+	display : inline;
+}
+.levys {
+	width : 6cm;
+	height : 3cm;
+	margin-bottom : 0px;
+	border-left : 1px solid;
+	padding-left : 5mm;
+	left : 0cm;
+	position : absolute;
+	display : inline;
+}
+.adresao {
+	border-left : 1px solid;
+	width : 11cm;
+	height : 2.8cm;
+	left:7cm;
+	position : relative;
+	padding : 0mm,3mm,0mm,3mm;
+	margin : 0mm,2mm,1mm,0mm;
+}
+.datumy {
+	display: block;
+}
+    
+.popiska {  
+   POSITION: relative; 
+   margin-top: 0.3cm;
+   Left:1cm; 
+   font-size: 10pt;
+   cursor: hand;
+    }    
+.radka {
+   margin-top: 0.3cm;
+   padding-left : 1cm;
+}
+.spz {
+   display : inline;
+   width : 2.5cm;
+}
+.b4 {
+   display : inline;
+   width : 6cm;
+}
+.datumstazky {
+   display : inline;
+}
+.vykon{	
+/*	width : 110mm; */
+	padding-left : 0cm;	
+	display : inline;
+}
+.kecy {
+	display : inline;
+}
+.popis {
+	display : inline;
+/*	width : 87mm; */ 
+}
+.numberfak {
+	display : inline;
+	margin-left : 6 cm;
+	width : 3.5cm;
+	text-align : right;
+}
+.number {
+	display : inline;
+/*	width : 1.98cm; */
+	text-align : right;
+}
+.number_neu {
+	display : inline;
+/*	width : 14mm; */
+	text-align : left; 
+}
+.dic1 {
+	display : inline;
+	width : 3.8cm;
+	text-align : right;
+}
+.dic {
+	display : inline;
+	width : 2.5cm;
+	text-align : right;
+}
+.numberb {
+	display : inline;
+	width : 3.5cm;
+	text-align : right;
+	font-weight : bold;
+}
+.sazba {
+	display : inline;
+	text-align : right;
+}
+.space5cm {
+	display : inline;
+	width : 5cm;
+}
+
+.soucet {
+	padding : 5mm,0mm,5mm,0mm;
+	margin : 1cm,1cm,1cm,1cm;
+	font-size : larger;	
+	width : 15cm;
+	border : 1px solid;
+	left:1cm
+}
+
+.soucetnew {
+	margin : 1cm,1cm,1cm,2cm;
+/*	font-size : larger;*/	
+/*	width : 14.5cm; */
+/*	border : 1px solid;*/
+/*	left:2cm*/
+} 
+
+.botcara{
+	border : 1px solid;
+	border-top : none;
+	border-right-style : none;
+	border-left-style : none;
+}
+
+.botcara9{
+/*  position: relative;
+  top: 7mm; */
+	border : 1px solid;
+	border-top : none;
+	border-right-style : none;
+	border-left-style : none;
+  width : 9.5cm;	
+}
+
+.botcara18{
+	border : 1px solid;
+	border-top : none;
+	border-right-style : none;
+	border-left-style : none;
+	width : 18.8cm;
+}
+.dan {
+	display : block;
+	padding-left : 3cm;
+}
+
+.fakturant_ext {
+	padding-left : 1cm;
+	/*margin-top : 3cm;*/
+}
+
+.fakturant {
+	padding-left : 1cm;
+	margin-top : 3cm;
+}
+
+.foot{
+	position:absolute;
+  top : 18.56cm;       /*original 19.7*/
+  left : 0cm;
+}
+
+.foot2{
+	position:absolute;
+  top : 46.27cm;       /* 47.4 */
+  left : 0cm;
+}
+
+.foot3{
+	position:absolute;
+  top : 73.97cm;       /* 75.13 */
+  left : 0cm;
+}
+
+.foot4{
+	position:absolute;
+  top : 101.68cm;      /* 102.84 */
+  left : 0cm;
+}
+
+.foot5{
+	position:absolute;
+  top : 129.39cm;      /* 130.55 */
+  left : 0cm;
+}
+
+.foot6{
+	position:absolute;
+  top : 157.10cm;      
+  left : 0cm;
+}
+
+.foot7{
+	position:absolute;
+  top : 184.81cm;      
+  left : 0cm;
+}
+
+.foot8{
+	position:absolute;
+  top : 212.52cm;      
+  left : 0cm;
+}
+
+.header2{
+	position:absolute;
+  top : 27.71cm;
+  left : 0cm;
+}
+
+.header3{
+	position:absolute;
+  top : 55.418cm;
+  left : 0cm;
+}
+
+.header4{
+	position:absolute;
+  top : 83.128cm;
+  left : 0cm;
+}
+
+.header5{
+	position:absolute;
+  top : 110.836cm;
+  left : 0cm;
+}
+
+.header6{
+	position:absolute;
+  top : 138.545cm;
+  left : 0cm;
+}
+
+.header7{
+	position:absolute;
+  top : 166.254cm;
+  left : 0cm;
+}
+
+.header8{
+	position:absolute;
+  top : 193.963cm;
+  left : 0cm;
+}
